@@ -6,11 +6,11 @@ from src.train import train_model
 from src.submit import generate_submission
 
 train = pd.read_csv(
-    "data/train.csv"
+    "data/spaceship-titanic/train.csv"
 )
 
 test = pd.read_csv(
-    "data/test.csv"
+    "data/spaceship-titanic/test.csv"
 )
 
 create_eda(train)
